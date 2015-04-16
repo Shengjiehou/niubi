@@ -1,0 +1,429 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		C2B370571ADF902200AF52D6 /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = C2B370561ADF902200AF52D6 /* main.m */; };
+		C2B3705A1ADF902200AF52D6 /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = C2B370591ADF902200AF52D6 /* AppDelegate.m */; };
+		C2B3705D1ADF902200AF52D6 /* ViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = C2B3705C1ADF902200AF52D6 /* ViewController.m */; };
+		C2B370601ADF902200AF52D6 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = C2B3705E1ADF902200AF52D6 /* Main.storyboard */; };
+		C2B370621ADF902200AF52D6 /* Images.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = C2B370611ADF902200AF52D6 /* Images.xcassets */; };
+		C2B370651ADF902200AF52D6 /* LaunchScreen.xib in Resources */ = {isa = PBXBuildFile; fileRef = C2B370631ADF902200AF52D6 /* LaunchScreen.xib */; };
+		C2B370711ADF902200AF52D6 /* niubiTests.m in Sources */ = {isa = PBXBuildFile; fileRef = C2B370701ADF902200AF52D6 /* niubiTests.m */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		C2B3706B1ADF902200AF52D6 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = C2B370491ADF902200AF52D6 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = C2B370501ADF902200AF52D6;
+			remoteInfo = niubi;
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		C2B370511ADF902200AF52D6 /* niubi.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = niubi.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		C2B370551ADF902200AF52D6 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		C2B370561ADF902200AF52D6 /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
+		C2B370581ADF902200AF52D6 /* AppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = AppDelegate.h; sourceTree = "<group>"; };
+		C2B370591ADF902200AF52D6 /* AppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = AppDelegate.m; sourceTree = "<group>"; };
+		C2B3705B1ADF902200AF52D6 /* ViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = ViewController.h; sourceTree = "<group>"; };
+		C2B3705C1ADF902200AF52D6 /* ViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = ViewController.m; sourceTree = "<group>"; };
+		C2B3705F1ADF902200AF52D6 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		C2B370611ADF902200AF52D6 /* Images.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Images.xcassets; sourceTree = "<group>"; };
+		C2B370641ADF902200AF52D6 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.xib; name = Base; path = Base.lproj/LaunchScreen.xib; sourceTree = "<group>"; };
+		C2B3706A1ADF902200AF52D6 /* niubiTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = niubiTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		C2B3706F1ADF902200AF52D6 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		C2B370701ADF902200AF52D6 /* niubiTests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = niubiTests.m; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		C2B3704E1ADF902200AF52D6 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		C2B370671ADF902200AF52D6 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		C2B370481ADF902200AF52D6 = {
+			isa = PBXGroup;
+			children = (
+				C2B370531ADF902200AF52D6 /* niubi */,
+				C2B3706D1ADF902200AF52D6 /* niubiTests */,
+				C2B370521ADF902200AF52D6 /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		C2B370521ADF902200AF52D6 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				C2B370511ADF902200AF52D6 /* niubi.app */,
+				C2B3706A1ADF902200AF52D6 /* niubiTests.xctest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		C2B370531ADF902200AF52D6 /* niubi */ = {
+			isa = PBXGroup;
+			children = (
+				C2B370581ADF902200AF52D6 /* AppDelegate.h */,
+				C2B370591ADF902200AF52D6 /* AppDelegate.m */,
+				C2B3705B1ADF902200AF52D6 /* ViewController.h */,
+				C2B3705C1ADF902200AF52D6 /* ViewController.m */,
+				C2B3705E1ADF902200AF52D6 /* Main.storyboard */,
+				C2B370611ADF902200AF52D6 /* Images.xcassets */,
+				C2B370631ADF902200AF52D6 /* LaunchScreen.xib */,
+				C2B370541ADF902200AF52D6 /* Supporting Files */,
+			);
+			path = niubi;
+			sourceTree = "<group>";
+		};
+		C2B370541ADF902200AF52D6 /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				C2B370551ADF902200AF52D6 /* Info.plist */,
+				C2B370561ADF902200AF52D6 /* main.m */,
+			);
+			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+		C2B3706D1ADF902200AF52D6 /* niubiTests */ = {
+			isa = PBXGroup;
+			children = (
+				C2B370701ADF902200AF52D6 /* niubiTests.m */,
+				C2B3706E1ADF902200AF52D6 /* Supporting Files */,
+			);
+			path = niubiTests;
+			sourceTree = "<group>";
+		};
+		C2B3706E1ADF902200AF52D6 /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				C2B3706F1ADF902200AF52D6 /* Info.plist */,
+			);
+			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		C2B370501ADF902200AF52D6 /* niubi */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = C2B370741ADF902200AF52D6 /* Build configuration list for PBXNativeTarget "niubi" */;
+			buildPhases = (
+				C2B3704D1ADF902200AF52D6 /* Sources */,
+				C2B3704E1ADF902200AF52D6 /* Frameworks */,
+				C2B3704F1ADF902200AF52D6 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = niubi;
+			productName = niubi;
+			productReference = C2B370511ADF902200AF52D6 /* niubi.app */;
+			productType = "com.apple.product-type.application";
+		};
+		C2B370691ADF902200AF52D6 /* niubiTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = C2B370771ADF902200AF52D6 /* Build configuration list for PBXNativeTarget "niubiTests" */;
+			buildPhases = (
+				C2B370661ADF902200AF52D6 /* Sources */,
+				C2B370671ADF902200AF52D6 /* Frameworks */,
+				C2B370681ADF902200AF52D6 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				C2B3706C1ADF902200AF52D6 /* PBXTargetDependency */,
+			);
+			name = niubiTests;
+			productName = niubiTests;
+			productReference = C2B3706A1ADF902200AF52D6 /* niubiTests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		C2B370491ADF902200AF52D6 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastUpgradeCheck = 0620;
+				ORGANIZATIONNAME = lanou3g;
+				TargetAttributes = {
+					C2B370501ADF902200AF52D6 = {
+						CreatedOnToolsVersion = 6.2;
+					};
+					C2B370691ADF902200AF52D6 = {
+						CreatedOnToolsVersion = 6.2;
+						TestTargetID = C2B370501ADF902200AF52D6;
+					};
+				};
+			};
+			buildConfigurationList = C2B3704C1ADF902200AF52D6 /* Build configuration list for PBXProject "niubi" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = C2B370481ADF902200AF52D6;
+			productRefGroup = C2B370521ADF902200AF52D6 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				C2B370501ADF902200AF52D6 /* niubi */,
+				C2B370691ADF902200AF52D6 /* niubiTests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		C2B3704F1ADF902200AF52D6 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				C2B370601ADF902200AF52D6 /* Main.storyboard in Resources */,
+				C2B370651ADF902200AF52D6 /* LaunchScreen.xib in Resources */,
+				C2B370621ADF902200AF52D6 /* Images.xcassets in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		C2B370681ADF902200AF52D6 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		C2B3704D1ADF902200AF52D6 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				C2B3705D1ADF902200AF52D6 /* ViewController.m in Sources */,
+				C2B3705A1ADF902200AF52D6 /* AppDelegate.m in Sources */,
+				C2B370571ADF902200AF52D6 /* main.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		C2B370661ADF902200AF52D6 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				C2B370711ADF902200AF52D6 /* niubiTests.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		C2B3706C1ADF902200AF52D6 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = C2B370501ADF902200AF52D6 /* niubi */;
+			targetProxy = C2B3706B1ADF902200AF52D6 /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin PBXVariantGroup section */
+		C2B3705E1ADF902200AF52D6 /* Main.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				C2B3705F1ADF902200AF52D6 /* Base */,
+			);
+			name = Main.storyboard;
+			sourceTree = "<group>";
+		};
+		C2B370631ADF902200AF52D6 /* LaunchScreen.xib */ = {
+			isa = PBXVariantGroup;
+			children = (
+				C2B370641ADF902200AF52D6 /* Base */,
+			);
+			name = LaunchScreen.xib;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		C2B370721ADF902200AF52D6 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_SYMBOLS_PRIVATE_EXTERN = NO;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 8.2;
+				MTL_ENABLE_DEBUG_INFO = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		C2B370731ADF902200AF52D6 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 8.2;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				SDKROOT = iphoneos;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		C2B370751ADF902200AF52D6 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				INFOPLIST_FILE = niubi/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+			};
+			name = Debug;
+		};
+		C2B370761ADF902200AF52D6 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				INFOPLIST_FILE = niubi/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+			};
+			name = Release;
+		};
+		C2B370781ADF902200AF52D6 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				FRAMEWORK_SEARCH_PATHS = (
+					"$(SDKROOT)/Developer/Library/Frameworks",
+					"$(inherited)",
+				);
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				INFOPLIST_FILE = niubiTests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/niubi.app/niubi";
+			};
+			name = Debug;
+		};
+		C2B370791ADF902200AF52D6 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				FRAMEWORK_SEARCH_PATHS = (
+					"$(SDKROOT)/Developer/Library/Frameworks",
+					"$(inherited)",
+				);
+				INFOPLIST_FILE = niubiTests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/niubi.app/niubi";
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		C2B3704C1ADF902200AF52D6 /* Build configuration list for PBXProject "niubi" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				C2B370721ADF902200AF52D6 /* Debug */,
+				C2B370731ADF902200AF52D6 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		C2B370741ADF902200AF52D6 /* Build configuration list for PBXNativeTarget "niubi" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				C2B370751ADF902200AF52D6 /* Debug */,
+				C2B370761ADF902200AF52D6 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
+		C2B370771ADF902200AF52D6 /* Build configuration list for PBXNativeTarget "niubiTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				C2B370781ADF902200AF52D6 /* Debug */,
+				C2B370791ADF902200AF52D6 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = C2B370491ADF902200AF52D6 /* Project object */;
+}
